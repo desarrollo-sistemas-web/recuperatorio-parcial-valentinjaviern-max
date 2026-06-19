@@ -5,7 +5,9 @@
 
 function esPositivo($numero){
     //Escribe tu código aquí
+    return = "el numero 1 es el positivo";
 }
+    echo 
 
 //Tests with assert
 assert(true == esPositivo(1), "El numero 1 es positivo");

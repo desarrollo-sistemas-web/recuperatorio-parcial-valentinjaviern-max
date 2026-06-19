@@ -4,9 +4,11 @@
 
 // Complejidad: BAJA (1 punto)
 
-function obtenerDiaSemana($numero){
+function obtenerDiaSemana($numero ='1'){
     //Escribe tu código aquí
+    retun = "el dia 1 es lunes";
 }
+echo obtenerDiaSemana()
 
 //Tests
 assert("Lunes" == obtenerDiaSemana(1), "El dia 1 es Lunes");

@@ -3,10 +3,11 @@
 // Ejercicio 2: Crea una función llamada saludar que tome un nombre como parámetro y devuelva un mensaje de saludo. Por ejemplo, si se pasa el nombre "Juan", la función debe devolver "¡Hola, Juan!".
 // Complejidad: BAJA (1 punto)
 
-function saludar($nombre){
+function saludar($nombre = 'juan'){
     //Escribe tu código aquí
-    
+    return "¡hola, juan!";
 }
+echo saludar("saludo a juan");
 
 //Tests
 assert("¡Hola, Juan!" == saludar("Juan"), "Saludo a Juan");

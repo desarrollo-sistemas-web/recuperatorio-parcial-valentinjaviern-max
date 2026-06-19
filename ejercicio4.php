@@ -5,8 +5,9 @@
 
 function encontrarMaximo($numeros){
     //Escribe tu código aquí
-
+     return = array_encontrarMaximo($numeros);
 }
+echo encontrarMaximo();
 
 //Tests
 assert(1 == encontrarMaximo([1]), "El maximo de [1] es 1");
